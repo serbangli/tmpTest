@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Classification Map//EN" "classifyMap.dtd">
+<map processing-role="resource-only">
+    <title>CircleChat Classification Map</title>
+    <!--
+    Associate topics to a category.
+    -->
+
+    <!-- Getting Started -->
+    <topicref href="../topics/getting_started.dita" audience="enduser">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="getting-started"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- System Requirements -->
+    <topicref href="../topics/system_requirements.dita" audience="administrator">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="installation"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Installation -->
+    <topicref href="../topics/installation.dita" audience="administrator">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="installation"/>
+        </topicsubject>
+        <topicref href="../tasks/installation_on_windows.dita">
+            <topicsubject keyref="topic-category">
+                <subjectref keyref="installation"/>
+            </topicsubject>
+        </topicref>
+        <topicref href="../tasks/installation_on_mac.dita">
+            <topicsubject keyref="topic-category">
+                <subjectref keyref="installation"/>
+            </topicsubject>
+        </topicref>
+        <topicref href="../tasks/installation_on_linux.dita">
+            <topicsubject keyref="topic-category">
+                <subjectref keyref="installation"/>
+            </topicsubject>
+        </topicref>
+    </topicref>
+
+    <!-- Account Management -->
+    <topicref href="../tasks/account_management.dita" audience="administrator">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="account"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Application UI -->
+    <topicref href="../topics/ui.dita" audience="enduser">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="ui"/>
+        </topicsubject>
+        <topicref href="../topics/login_screen.dita">
+            <topicsubject keyref="topic-category">
+                <subjectref keyref="ui"/>
+            </topicsubject>
+        </topicref>
+        <topicref href="../topics/talk_screen.dita">
+            <topicsubject keyref="topic-category">
+                <subjectref keyref="ui"/>
+            </topicsubject>
+        </topicref>
+    </topicref>
+
+    <!-- Settings -->
+    <topicref href="../topics/settings.dita">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="configuration"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Keyboard Shortcuts -->
+    <topicref href="../topics/keyboard_shortcuts.dita" audience="enduser">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="reference"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Troubleshooting -->
+    <topicref href="../topics/troubleshooting.dita">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="support"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Release Notes -->
+    <topicref href="../topics/release_notes.dita">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="reference"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- User Management -->
+    <topicref href="../topics/user_management.dita" audience="administrator">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="account"/>
+        </topicsubject>
+    </topicref>
+
+    <!-- Glossary -->
+    <topicref href="../topics/glossary.dita">
+        <topicsubject keyref="topic-category">
+            <subjectref keyref="reference"/>
+        </topicsubject>
+    </topicref>
+
+</map>

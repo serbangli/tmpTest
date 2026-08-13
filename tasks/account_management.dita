@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="account_management">
+  <title>Managing Your Account</title>
+  <shortdesc>Learn how to create a new account, update your profile, and reset your
+    password in <keyword keyref="product"/>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>account<indexterm>create</indexterm></indexterm>
+        <indexterm>account<indexterm>password reset</indexterm></indexterm>
+        <indexterm>profile</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p audience="enduser">Every <keyword keyref="product"/> user needs a registered account. Accounts are managed
+        through the application itself or via the web portal at
+        <xref keyref="account_portal"/>.</p>
+      <p audience="administrator">As an administrator, you can manage all user accounts in your
+        organization through the web portal at <xref keyref="account_portal"/>. For bulk user
+        creation, suspension, and deletion, see <xref href="../topics/user_management.dita"/>.</p>
+    </context>
+  </taskbody>
+  <task id="create_account">
+    <title>Creating a New Account</title>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>Launch <keyword keyref="product"/> and click <uicontrol>Create Account</uicontrol>
+            on the Talk Selection Screen.</cmd>
+        </step>
+        <step>
+          <cmd>Enter your <uicontrol>Full Name</uicontrol>, <uicontrol>Email Address</uicontrol>,
+            and a secure <uicontrol>Password</uicontrol>.</cmd>
+          <info>
+            <note conref="../reusables/r_common_notes.dita#r_common_notes/password_requirements"/>
+          </info>
+        </step>
+        <step>
+          <cmd>Click <uicontrol>Register</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Check your email inbox for a verification message and click the confirmation
+            link.</cmd>
+        </step>
+        <step>
+          <cmd>Return to <keyword keyref="product"/> and log in with your new credentials.</cmd>
+        </step>
+      </steps>
+      <result>
+        <p>Your account is now active. You can join or create talks immediately.</p>
+      </result>
+    </taskbody>
+  </task>
+  <task id="update_profile">
+    <title>Updating Your Profile</title>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>Click your avatar or username in the top-right corner of the application.</cmd>
+        </step>
+        <step>
+          <cmd>Select <uicontrol>Edit Profile</uicontrol> from the drop-down menu.</cmd>
+        </step>
+        <step>
+          <cmd>Update your <uicontrol>Display Name</uicontrol>, <uicontrol>Avatar</uicontrol>, or
+            <uicontrol>Status Message</uicontrol> as desired.</cmd>
+        </step>
+        <step>
+          <cmd>Click <uicontrol>Save Changes</uicontrol>.</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+  <task id="reset_password">
+    <title>Resetting Your Password</title>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>On the Talk Selection Screen, click <uicontrol>Forgot Password?</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Enter the email address associated with your account and click
+            <uicontrol>Send Reset Link</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Open the password reset email and click the link provided.</cmd>
+        </step>
+        <step>
+          <cmd>Enter and confirm your new password, then click
+            <uicontrol>Reset Password</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Log in to <keyword keyref="product"/> using your new password.</cmd>
+        </step>
+      </steps>
+      <result>
+        <p>Your password has been updated. All active sessions on other devices will be
+          signed out automatically.</p>
+      </result>
+    </taskbody>
+  </task>
+</task>

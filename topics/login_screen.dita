@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="login_screen">
+  <title>Talk Selection Screen</title>
+  <shortdesc>The Talk Selection Screen is the first screen you see when you launch
+    <keyword keyref="product"/>. From here you can log in, join an existing talk, or create a new
+    one.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>ui<indexterm>talk selection</indexterm></indexterm>
+        <indexterm>login</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <body>
+    <p>The screen allows you to:</p>
+    <ol>
+      <li>Select the talk you want to enter.</li>
+      <li>Specify credentials if you are logging in for the first time.</li>
+    </ol>
+    <image href="../images/chat_selection_screen.png" scale="30"/>
+    <section id="talk_selection_controls">
+      <title>Screen Controls</title>
+      <dl>
+        <dlentry>
+          <dt><uicontrol>Select talk</uicontrol> combo box</dt>
+          <dd>Choose an existing, on-going talk from the drop-down list, or type a new name to
+            create a fresh talk. Public talks are listed automatically; private talks require an
+            invitation link.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Username</uicontrol> field</dt>
+          <dd>Enter your registered email address. This field is pre-filled on subsequent logins if
+              <uicontrol>Remember me</uicontrol> is checked.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Password</uicontrol> field</dt>
+          <dd>Enter your account password. Click the eye icon to toggle password visibility.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Remember me</uicontrol> checkbox</dt>
+          <dd>When checked, your credentials are securely stored so you do not need to re-enter them
+            on the next launch.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Join Talk</uicontrol> button</dt>
+          <dd>Authenticates your credentials and opens the selected talk in the Main Talk
+            Screen.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Create Account</uicontrol> link</dt>
+          <dd>Opens the account registration form for new users.</dd>
+        </dlentry>
+        <dlentry>
+          <dt><uicontrol>Forgot Password?</uicontrol> link</dt>
+          <dd>Initiates the password reset workflow. See <xref
+              href="../tasks/account_management.dita#reset_password"/> for details.</dd>
+        </dlentry>
+      </dl>
+    </section>
+  </body>
+</topic>

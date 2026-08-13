@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_common_notes">
+  <title>Common Notes and Warnings</title>
+  <shortdesc>Reusable notes, warnings, and tips shared across multiple topics.</shortdesc>
+  <refbody>
+    <section id="password_requirements_section">
+      <note id="password_requirements" type="tip">Your password must be at least 8 characters long
+        and contain at least one uppercase letter, one digit, and one special character.</note>
+    </section>
+    <section id="network_ports_section">
+      <ul id="network_ports">
+        <li><b>Port 443</b> (HTTPS) — used for all API communication and file transfers.</li>
+        <li><b>Port 8883</b> (MQTT over TLS) — used for real-time message delivery.</li>
+      </ul>
+    </section>
+    <section id="proxy_note_section">
+      <note id="proxy_note" type="important">If your organization uses a proxy server, configure
+        the proxy settings in
+          <menucascade><uicontrol>Settings</uicontrol><uicontrol>Network</uicontrol></menucascade>
+        before attempting to connect.</note>
+    </section>
+    <section id="product_intro_section">
+      <p id="product_intro"><keyword keyref="product"/> is a real-time team messaging application
+        designed for small to medium-sized teams. It enables instant text communication, file
+        sharing, and threaded discussions organized around named <term>talks</term> — persistent
+        chat rooms that any team member can join or leave at any time.</p>
+    </section>
+  </refbody>
+</reference>

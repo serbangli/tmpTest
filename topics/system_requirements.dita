@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="system_requirements">
+  <title>System Requirements</title>
+  <shortdesc>Minimum and recommended hardware and software requirements for running
+    <keyword keyref="product"/>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>system requirements</indexterm>
+        <indexterm>prerequisites</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="windows_req">
+      <title>Windows</title>
+      <simpletable relcolwidth="1* 2* 2*">
+        <sthead>
+          <stentry>Component</stentry>
+          <stentry>Minimum</stentry>
+          <stentry>Recommended</stentry>
+        </sthead>
+        <strow>
+          <stentry>Operating System</stentry>
+          <stentry>Windows 10 (64-bit)</stentry>
+          <stentry>Windows 11 (64-bit)</stentry>
+        </strow>
+        <strow>
+          <stentry>Processor</stentry>
+          <stentry>1.6 GHz dual-core</stentry>
+          <stentry>2.4 GHz quad-core or better</stentry>
+        </strow>
+        <strow>
+          <stentry>RAM</stentry>
+          <stentry>2 GB</stentry>
+          <stentry>4 GB or more</stentry>
+        </strow>
+        <strow>
+          <stentry>Disk Space</stentry>
+          <stentry>200 MB</stentry>
+          <stentry>500 MB (for message cache)</stentry>
+        </strow>
+        <strow>
+          <stentry>Network</stentry>
+          <stentry>Broadband Internet connection</stentry>
+          <stentry>Broadband Internet connection</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="mac_req">
+      <title>Mac OS X</title>
+      <simpletable relcolwidth="1* 2* 2*">
+        <sthead>
+          <stentry>Component</stentry>
+          <stentry>Minimum</stentry>
+          <stentry>Recommended</stentry>
+        </sthead>
+        <strow>
+          <stentry>Operating System</stentry>
+          <stentry>macOS 11 Big Sur</stentry>
+          <stentry>macOS 13 Ventura or later</stentry>
+        </strow>
+        <strow>
+          <stentry>Processor</stentry>
+          <stentry>Intel Core i5 or Apple M1</stentry>
+          <stentry>Apple M2 or Intel Core i7</stentry>
+        </strow>
+        <strow>
+          <stentry>RAM</stentry>
+          <stentry>2 GB</stentry>
+          <stentry>8 GB or more</stentry>
+        </strow>
+        <strow>
+          <stentry>Disk Space</stentry>
+          <stentry>200 MB</stentry>
+          <stentry>500 MB (for message cache)</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="linux_req">
+      <title>Linux</title>
+      <simpletable relcolwidth="1* 2* 2*">
+        <sthead>
+          <stentry>Component</stentry>
+          <stentry>Minimum</stentry>
+          <stentry>Recommended</stentry>
+        </sthead>
+        <strow>
+          <stentry>Operating System</stentry>
+          <stentry>Ubuntu 20.04 LTS or equivalent</stentry>
+          <stentry>Ubuntu 22.04 LTS or equivalent</stentry>
+        </strow>
+        <strow>
+          <stentry>Processor</stentry>
+          <stentry>1.6 GHz dual-core</stentry>
+          <stentry>2.4 GHz quad-core or better</stentry>
+        </strow>
+        <strow>
+          <stentry>RAM</stentry>
+          <stentry>2 GB</stentry>
+          <stentry>4 GB or more</stentry>
+        </strow>
+        <strow>
+          <stentry>Disk Space</stentry>
+          <stentry>200 MB</stentry>
+          <stentry>500 MB (for message cache)</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="network_req">
+      <title>Network Requirements</title>
+      <p><keyword keyref="product"/> requires an active Internet connection. The following ports
+        must be open on your firewall:</p>
+      <ul conref="../reusables/r_common_notes.dita#r_common_notes/network_ports"><li/></ul>
+      <note conref="../reusables/r_common_notes.dita#r_common_notes/proxy_note"/>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installation_on_windows">
+  <title>Installation on Windows</title>
+  <shortdesc>This task describes how to install the desktop version of the
+<keyword keyref="product"/> messaging application on Windows.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword keyref="installation-label" outputclass="label"/>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p>Follow the steps to install the software on a Windows 10 platform.</p>
+      <p id="unistall_advice" conref="../reusables/r_installation.dita#r_installation/uninstall_advice"/>
+    </context>
+    <steps>
+      <step>
+        <cmd>Download the installation kit from <xref keyref="download_site"/>.</cmd>
+      </step>
+      <step>
+        <cmd>Extract the archive</cmd>
+      </step>
+      <step>
+        <cmd>Run the <filepath>circlechat.exe</filepath> installer</cmd>
+      </step>
+      <step>
+        <cmd>Choose <uicontrol>default</uicontrol> when asked for installation options.</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="installation_on_mac.dita"/>
+    <link href="installation_on_linux.dita"/>
+  </related-links>
+</task>

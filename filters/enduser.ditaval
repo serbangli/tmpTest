@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE val PUBLIC "-//OASIS//DTD DITA DITAVAL//EN" "ditaval.dtd">
+<val>
+  <!-- Include end-user content, exclude administrator-only content -->
+  <prop att="audience" val="enduser" action="include"/>
+  <prop att="audience" val="administrator" action="exclude"/>
+</val>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title><ph keyref="product"/></title>
+
+ <!-- Getting Started -->
+ <topicref href="topics/getting_started.dita" audience="enduser"/>
+
+ <!-- System Requirements -->
+ <topicref href="topics/system_requirements.dita" audience="administrator"/>
+
+ <!-- Installation -->
+ <topicref href="topics/installation.dita" audience="administrator">
+  <topicref href="tasks/installation_on_windows.dita" audience="administrator"/>
+  <topicref href="tasks/installation_on_mac.dita" audience="administrator"/>
+  <topicref href="tasks/installation_on_linux.dita" audience="administrator"/>
+ </topicref>
+
+ <!-- Account Management -->
+ <topicref href="tasks/account_management.dita" audience="enduser administrator"/>
+
+ <!-- Application UI -->
+ <topicref href="topics/ui.dita" audience="enduser">
+  <topicref href="topics/login_screen.dita" audience="enduser"/>
+  <topicref href="topics/talk_screen.dita" audience="enduser"/>
+ </topicref>
+
+ <!-- Settings -->
+ <topicref href="topics/settings.dita"/>
+
+ <!-- Keyboard Shortcuts -->
+ <topicref href="topics/keyboard_shortcuts.dita" audience="enduser"/>
+
+ <!-- Troubleshooting -->
+ <topicref href="topics/troubleshooting.dita"/>
+
+ <!-- Release Notes -->
+ <topicref href="topics/release_notes.dita"/>
+
+ <!-- User Management (Administrator only) -->
+ <topicref href="topics/user_management.dita" audience="administrator"/>
+
+ <!-- Glossary -->
+ <topicref href="topics/glossary.dita"/>
+ 
+ <!-- Reusable components (not in TOC) -->
+ <topichead navtitle="Reusables" processing-role="resource-only">
+  <keydef keys="product">
+   <topicmeta>
+    <keywords>
+     <keyword>CircleChatDemo®</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="download_site" href="http://sample.circlechat.com" format="html" scope="external"/>
+  <keydef keys="support_site" href="http://sample.talkingcircle.com/support" format="html" scope="external"/>
+  <keydef keys="account_portal" href="http://sample.circlechat.com/account" format="html"
+   scope="external"/>
+  <topicref href="reusables/r_installation.dita"/>
+  <topicref href="reusables/r_common_notes.dita"/>
+  <keydef keys="installation-label">
+   <topicmeta>
+    <keywords>
+     <keyword outputclass="label">Installation</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+  <keydef keys="configure-label">
+   <topicmeta>
+    <keywords>
+     <keyword outputclass="label">Configuration</keyword>
+    </keywords>
+   </topicmeta>
+  </keydef>
+ </topichead>
+ <topicref href="classification/circlechat-subject-scheme.ditamap" format="ditamap" type="subjectScheme" processing-role="resource-only"/>
+ <topicref href="classification/circlechat-classification.ditamap" format="ditamap" processing-role="resource-only"/>
+
+</map>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="user_management">
+  <title>Managing Users</title>
+  <shortdesc>As an administrator, you can create, suspend, and remove user accounts in
+    <keyword keyref="product"/> through the administration portal.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>administrator<indexterm>user management</indexterm></indexterm>
+        <indexterm>account<indexterm>suspend</indexterm></indexterm>
+        <indexterm>account<indexterm>delete</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p>User management is performed through the web-based administration portal at
+        <xref keyref="account_portal"/>. You must be logged in with an account that has the
+        <b>Organization Administrator</b> role to access these features.</p>
+    </context>
+  </taskbody>
+
+  <task id="create_user_admin">
+    <title>Creating a User Account</title>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>Log in to the administration portal at <xref keyref="account_portal"/>.</cmd>
+        </step>
+        <step>
+          <cmd>Navigate to <menucascade><uicontrol>Users</uicontrol>
+              <uicontrol>Add User</uicontrol></menucascade>.</cmd>
+        </step>
+        <step>
+          <cmd>Enter the new user's <uicontrol>Full Name</uicontrol>,
+            <uicontrol>Email Address</uicontrol>, and assign a temporary
+            <uicontrol>Password</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Select the appropriate <uicontrol>Role</uicontrol>: <uicontrol>User</uicontrol> or
+              <uicontrol>Administrator</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Click <uicontrol>Create User</uicontrol>.</cmd>
+        </step>
+        <step>
+          <cmd>Notify the new user of their credentials and instruct them to change their password
+            on first login.</cmd>
+        </step>
+      </steps>
+      <result>
+        <p>The new account is active immediately. The user can log in to
+          <keyword keyref="product"/> using the provided credentials.</p>
+      </result>
+    </taskbody>
+  </task>
+
+  <task id="suspend_user">
+    <title>Suspending a User Account</title>
+    <shortdesc>Suspending an account prevents the user from logging in without permanently
+      deleting their message history.</shortdesc>
+    <taskbody>
+      <steps>
+        <step>
+          <cmd>In the administration portal, go to <menucascade><uicontrol>Users</uicontrol>
+              <uicontrol>All Users</uicontrol></menucascade> and locate the account.</cmd>
+        </step>
+        <step>
+          <cmd>Click the user's name to open their profile.</cmd>
+        </step>
+        <step>
+          <cmd>Click <uicontrol>Suspend Account</uicontrol> and confirm the action.</cmd>
+        </step>
+      </steps>
+      <result>
+        <p>The user is immediately signed out of all active sessions and cannot log in until the
+          account is reactivated.</p>
+      </result>
+    </taskbody>
+  </task>
+
+  <task id="delete_user">
+    <title>Deleting a User Account</title>
+    <shortdesc>Permanently removes a user account and all associated data from the
+      organization.</shortdesc>
+    <taskbody>
+      <prereq>
+        <note type="warning">This action is irreversible. All messages, profile data, and
+          settings associated with the account will be permanently deleted.</note>
+      </prereq>
+      <steps>
+        <step>
+          <cmd>In the administration portal, go to <menucascade><uicontrol>Users</uicontrol>
+              <uicontrol>All Users</uicontrol></menucascade> and locate the account.</cmd>
+        </step>
+        <step>
+          <cmd>Click the user's name to open their profile.</cmd>
+        </step>
+        <step>
+          <cmd>Click <uicontrol>Delete Account</uicontrol>, type the user's email address to
+            confirm, then click <uicontrol>Permanently Delete</uicontrol>.</cmd>
+        </step>
+      </steps>
+    </taskbody>
+  </task>
+</task>

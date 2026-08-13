@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="keyboard_shortcuts">
+  <title>Keyboard Shortcuts</title>
+  <shortdesc>A complete reference of keyboard shortcuts available in
+    <keyword keyref="product"/>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>keyboard shortcuts</indexterm>
+        <indexterm>hotkeys</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="global_shortcuts">
+      <title>Global Shortcuts</title>
+      <simpletable relcolwidth="2* 2* 3*">
+        <sthead>
+          <stentry>Action</stentry>
+          <stentry>Windows / Linux</stentry>
+          <stentry>Mac</stentry>
+        </sthead>
+        <strow>
+          <stentry>Open Settings</stentry>
+          <stentry><uicontrol>Ctrl+,</uicontrol></stentry>
+          <stentry><uicontrol>⌘,</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Switch to next talk</stentry>
+          <stentry><uicontrol>Ctrl+Tab</uicontrol></stentry>
+          <stentry><uicontrol>⌘⌥→</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Switch to previous talk</stentry>
+          <stentry><uicontrol>Ctrl+Shift+Tab</uicontrol></stentry>
+          <stentry><uicontrol>⌘⌥←</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Quick talk switcher</stentry>
+          <stentry><uicontrol>Ctrl+K</uicontrol></stentry>
+          <stentry><uicontrol>⌘K</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Search messages</stentry>
+          <stentry><uicontrol>Ctrl+F</uicontrol></stentry>
+          <stentry><uicontrol>⌘F</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Quit application</stentry>
+          <stentry><uicontrol>Ctrl+Q</uicontrol></stentry>
+          <stentry><uicontrol>⌘Q</uicontrol></stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="messaging_shortcuts">
+      <title>Messaging</title>
+      <simpletable relcolwidth="2* 2* 3*">
+        <sthead>
+          <stentry>Action</stentry>
+          <stentry>Windows / Linux</stentry>
+          <stentry>Mac</stentry>
+        </sthead>
+        <strow>
+          <stentry>Send message</stentry>
+          <stentry><uicontrol>Enter</uicontrol></stentry>
+          <stentry><uicontrol>Return</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>New line in message</stentry>
+          <stentry><uicontrol>Shift+Enter</uicontrol></stentry>
+          <stentry><uicontrol>Shift+Return</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Edit last message</stentry>
+          <stentry><uicontrol>↑</uicontrol> (in empty input field)</stentry>
+          <stentry><uicontrol>↑</uicontrol> (in empty input field)</stentry>
+        </strow>
+        <strow>
+          <stentry>Bold text</stentry>
+          <stentry><uicontrol>Ctrl+B</uicontrol></stentry>
+          <stentry><uicontrol>⌘B</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Italic text</stentry>
+          <stentry><uicontrol>Ctrl+I</uicontrol></stentry>
+          <stentry><uicontrol>⌘I</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Inline code</stentry>
+          <stentry><uicontrol>Ctrl+Shift+C</uicontrol></stentry>
+          <stentry><uicontrol>⌘Shift+C</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Upload file</stentry>
+          <stentry><uicontrol>Ctrl+U</uicontrol></stentry>
+          <stentry><uicontrol>⌘U</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Mention a user</stentry>
+          <stentry>Type <codeph>@</codeph> followed by username</stentry>
+          <stentry>Type <codeph>@</codeph> followed by username</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="navigation_shortcuts">
+      <title>Navigation</title>
+      <simpletable relcolwidth="2* 2* 3*">
+        <sthead>
+          <stentry>Action</stentry>
+          <stentry>Windows / Linux</stentry>
+          <stentry>Mac</stentry>
+        </sthead>
+        <strow>
+          <stentry>Scroll to top of talk</stentry>
+          <stentry><uicontrol>Ctrl+Home</uicontrol></stentry>
+          <stentry><uicontrol>⌘↑</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Scroll to bottom of talk</stentry>
+          <stentry><uicontrol>Ctrl+End</uicontrol></stentry>
+          <stentry><uicontrol>⌘↓</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Jump to unread messages</stentry>
+          <stentry><uicontrol>Ctrl+J</uicontrol></stentry>
+          <stentry><uicontrol>⌘J</uicontrol></stentry>
+        </strow>
+        <strow>
+          <stentry>Open Direct Messages</stentry>
+          <stentry><uicontrol>Ctrl+Shift+D</uicontrol></stentry>
+          <stentry><uicontrol>⌘Shift+D</uicontrol></stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>

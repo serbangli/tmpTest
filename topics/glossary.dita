@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossgroup PUBLIC "-//OASIS//DTD DITA Glossary Group//EN" "glossgroup.dtd">
+<glossgroup id="glossary">
+  <title>Glossary</title>
+  <glossentry id="gl_talk">
+    <glossterm>Talk</glossterm>
+    <glossdef>A named, persistent chat room in <keyword keyref="product"/>. Talks can be public
+      (visible to all users in the organization) or private (invite-only). All message history is
+      retained.</glossdef>
+  </glossentry>
+  <glossentry id="gl_mention">
+    <glossterm>Mention</glossterm>
+    <glossdef>A way to notify a specific user within a talk by prefixing their username with
+      <codeph>@</codeph>. The mentioned user receives a notification regardless of their current
+      activity status.</glossdef>
+  </glossentry>
+  <glossentry id="gl_direct_message">
+    <glossterm>Direct Message (DM)</glossterm>
+    <glossdef>A private, one-on-one conversation between two users that is separate from any
+      talk. Direct Messages support end-to-end encryption.</glossdef>
+  </glossentry>
+  <glossentry id="gl_callout">
+    <glossterm>Callout</glossterm>
+    <glossdef>The visual speech-bubble element used to display a user's message in the Main Talk
+      Screen. Each callout is color-coded to match the sending user's assigned color.</glossdef>
+  </glossentry>
+  <glossentry id="gl_thread">
+    <glossterm>Thread</glossterm>
+    <glossdef>A sub-conversation attached to a specific message in a talk. Threads keep
+      follow-up discussion organized without cluttering the main talk timeline.</glossdef>
+  </glossentry>
+  <glossentry id="gl_status">
+    <glossterm>User Status</glossterm>
+    <glossdef>An indicator that shows a user's current availability: <b>Online</b>, <b>Away</b>,
+      <b>Busy</b>, or <b>Offline</b>. Users can set their status manually or let the application
+      set it automatically based on activity.</glossdef>
+  </glossentry>
+  <glossentry id="gl_emoji_reaction">
+    <glossterm>Emoji Reaction</glossterm>
+    <glossdef>A quick emoji response attached to a message, allowing users to acknowledge or
+      respond to a message without sending a full reply.</glossdef>
+  </glossentry>
+  <glossentry id="gl_proxy">
+    <glossterm>Proxy Server</glossterm>
+    <glossdef>An intermediary server that routes network traffic between <keyword keyref="product"/>
+      and the <keyword keyref="product"/> cloud servers. Proxy settings can be configured in
+      <menucascade><uicontrol>Settings</uicontrol><uicontrol>Network</uicontrol></menucascade>.
+    </glossdef>
+  </glossentry>
+</glossgroup>

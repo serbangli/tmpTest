@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_installation">
+  <title>Installation Reusables</title>
+  <shortdesc>Reusable components for installation topics.</shortdesc>
+  <refbody>
+    <section id="uninstall_advice_section">
+      <p id="uninstall_advice">In case you have an older version installed on your system, make sure
+        you uninstall it first. Leave the settings in place, as they are used by the newer
+        version.</p>
+    </section>
+    <section id="install_result_section">
+      <p id="install_result"><keyword keyref="product"/> is now installed and ready to use. A
+        desktop shortcut is created automatically in your application launcher.</p>
+    </section>
+    <section id="proxy_postreq_section">
+      <p id="proxy_postreq">If you are behind a corporate proxy, configure the proxy settings before
+        connecting. See <xref href="../topics/settings.dita"/> for details.</p>
+    </section>
+  </refbody>
+</reference>

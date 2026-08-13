@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="release_notes">
+  <title>Release Notes</title>
+  <shortdesc>A summary of new features, improvements, and bug fixes in each release of
+    <keyword keyref="product"/>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>release notes</indexterm>
+        <indexterm>changelog</indexterm>
+        <indexterm>version history</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="v3_2_0">
+      <title>Version 3.2.0 (March 2026)</title>
+      <p><b>New Features</b></p>
+      <ul>
+        <li>Added <b>Do Not Disturb</b> scheduling in Notification settings.</li>
+        <li>Introduced <b>threaded replies</b>: hover over any message and click
+          <uicontrol>Reply in Thread</uicontrol> to start a sub-conversation.</li>
+        <li>New <b>Dark Mode</b> theme option available under General settings.</li>
+        <li>Linux <filepath>.rpm</filepath> package now available for Fedora and RHEL users.</li>
+      </ul>
+      <p><b>Improvements</b></p>
+      <ul>
+        <li>Improved message rendering performance for talks with more than 10,000 messages.</li>
+        <li>Proxy authentication now supports NTLM in addition to Basic auth.</li>
+        <li>Reduced application startup time by approximately 30%.</li>
+      </ul>
+      <p><b>Bug Fixes</b></p>
+      <ul>
+        <li>Fixed an issue where desktop notifications were not dismissed after reading the
+          message.</li>
+        <li>Resolved a crash that occurred when uploading files larger than 50 MB.</li>
+        <li>Fixed incorrect display of timestamps in talks spanning multiple time zones.</li>
+      </ul>
+    </section>
+    <section id="v3_1_2">
+      <title>Version 3.1.2 (January 2026)</title>
+      <p><b>Bug Fixes</b></p>
+      <ul>
+        <li>Fixed a connectivity issue affecting users behind SOCKS5 proxies.</li>
+        <li>Resolved a problem where the application would not reconnect automatically after a
+          network interruption.</li>
+        <li>Fixed a rendering glitch in the Talk Selection Screen on high-DPI displays.</li>
+      </ul>
+    </section>
+    <section id="v3_1_0">
+      <title>Version 3.1.0 (November 2025)</title>
+      <p><b>New Features</b></p>
+      <ul>
+        <li>Added <b>file sharing</b>: drag and drop files directly into the talk window to
+          upload and share them with participants.</li>
+        <li>Introduced <b>emoji reactions</b>: react to any message with an emoji by hovering
+          over it and clicking the smiley icon.</li>
+        <li>New <b>user status</b> indicators: set your status to Online, Away, Busy, or
+          Offline.</li>
+      </ul>
+      <p><b>Improvements</b></p>
+      <ul>
+        <li>The <uicontrol>Leave</uicontrol> button now prompts for confirmation to prevent
+          accidental exits.</li>
+        <li>Message search now supports filtering by date range and sender.</li>
+      </ul>
+    </section>
+    <section id="v3_0_0">
+      <title>Version 3.0.0 (August 2025)</title>
+      <p><b>New Features</b></p>
+      <ul>
+        <li>Complete UI redesign with a modern, accessible interface.</li>
+        <li>Added <b>Direct Messages</b> for private one-on-one conversations.</li>
+        <li>Introduced <b>talk pinning</b>: pin your most-used talks to the top of the list.</li>
+        <li>End-to-end encryption for Direct Messages.</li>
+      </ul>
+      <p><b>Breaking Changes</b></p>
+      <ul>
+        <li>Dropped support for Windows 7 and Windows 8.</li>
+        <li>Dropped support for macOS versions earlier than Big Sur (11.0).</li>
+      </ul>
+    </section>
+  </refbody>
+</reference>

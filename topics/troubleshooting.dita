@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA 1.3 Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="troubleshooting">
+  <title>Troubleshooting</title>
+  <shortdesc>If you experience problems with <keyword keyref="product"/>, consult this section for
+    common issues and their solutions.</shortdesc>
+  <troublebody>
+    <condition>
+      <p>You cannot send or receive messages.</p>
+    </condition>
+    <troubleSolution>
+      <cause>
+        <title>You cannot login</title>
+        <p>The application rejects your login credentials.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>The user</responsibleParty>
+        <steps-unordered>
+          <step>
+            <cmd>Check that your CAPS LOCK key is not active.</cmd>
+          </step>
+          <step>
+            <cmd>Verify that you are using the correct email address for your account.</cmd>
+          </step>
+          <step>
+            <cmd>Reset your password using the <uicontrol>Forgot Password?</uicontrol> link on
+              the Talk Selection Screen.</cmd>
+          </step>
+          <step audience="enduser">
+            <cmd>If the problem persists, contact your organization administrator to confirm
+              your account has not been suspended.</cmd>
+          </step>
+          <step audience="administrator">
+            <cmd>Check the user's account status in the administration portal at
+              <xref keyref="account_portal"/> and reactivate it if it has been suspended.</cmd>
+          </step>
+        </steps-unordered>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <title>The application lost connectivity</title>
+        <p>You cannot see other participants' replies, or messages fail to send.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>The user</responsibleParty>
+        <steps-unordered>
+          <step>
+            <cmd>Verify that your Internet connection is active by opening a web browser.</cmd>
+          </step>
+          <step>
+            <cmd>Check the application proxy settings under
+              <menucascade><uicontrol>Settings</uicontrol>
+                <uicontrol>Network</uicontrol></menucascade>.</cmd>
+          </step>
+          <step>
+            <cmd audience="administrator">Confirm that ports <b>443</b> (HTTPS) and <b>8883</b>
+              (MQTT over TLS) are not blocked by your firewall or security software. See <xref
+                href="system_requirements.dita#system_requirements/network_req"/> for the full list
+              of required ports.</cmd>
+          </step>
+          <step>
+            <cmd>Click <uicontrol>Reconnect</uicontrol> in the status bar at the bottom of the
+              application window.</cmd>
+          </step>
+        </steps-unordered>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <title>Notifications are not appearing</title>
+        <p>You are not receiving desktop notifications for new messages.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>The user</responsibleParty>
+        <steps-unordered>
+          <step>
+            <cmd>Open <menucascade><uicontrol>Settings</uicontrol>
+                <uicontrol>Notifications</uicontrol></menucascade> and confirm that
+              <uicontrol>Desktop notifications</uicontrol> is enabled.</cmd>
+          </step>
+          <step>
+            <cmd>Check your operating system's notification settings to ensure
+              <keyword keyref="product"/> is allowed to display notifications.</cmd>
+          </step>
+          <step>
+            <cmd>Verify that <uicontrol>Do Not Disturb</uicontrol> mode is not currently
+              active.</cmd>
+          </step>
+        </steps-unordered>
+      </remedy>
+    </troubleSolution>
+    <troubleSolution>
+      <cause>
+        <title>The application crashes on startup</title>
+        <p><keyword keyref="product"/> closes immediately after launching, or displays an error
+          dialog on startup.</p>
+      </cause>
+      <remedy>
+        <responsibleParty>The user</responsibleParty>
+        <steps-unordered>
+          <step>
+            <cmd audience="administrator">Ensure your operating system meets the minimum
+              requirements listed in <xref href="system_requirements.dita"/>.</cmd>
+          </step>
+          <step>
+            <cmd>Delete the application cache folder and restart. The cache folder location
+              depends on your operating system: on Windows it is
+              <filepath>%APPDATA%\CircleChat\cache</filepath>, on Mac it is
+              <filepath>~/Library/Caches/CircleChat</filepath>, and on Linux it is
+              <filepath>~/.cache/circlechat</filepath>.</cmd>
+          </step>
+          <step>
+            <cmd>Reinstall the application using the latest installer from
+              <xref keyref="download_site"/>.</cmd>
+          </step>
+          <step>
+            <cmd>If the crash persists, collect the log file from
+              <filepath>%APPDATA%\CircleChat\logs\circlechat.log</filepath> (Windows) or
+              <filepath>~/.local/share/circlechat/logs/circlechat.log</filepath> (Linux/Mac)
+              and contact support.</cmd>
+          </step>
+        </steps-unordered>
+      </remedy>
+    </troubleSolution>
+  </troublebody>
+</troubleshooting>

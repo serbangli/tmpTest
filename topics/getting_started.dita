@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="getting_started">
+  <title>Getting Started</title>
+  <shortdesc>A quick introduction to <keyword keyref="product"/> and the key concepts you need to
+    know before you begin.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <indexterm>getting started</indexterm>
+        <indexterm>overview</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <conbody>
+    <p conref="../reusables/r_common_notes.dita#r_common_notes/product_intro"/>
+    <image href="../images/chat_logo.png" id="image_icw_dqn_q3c" scale="30"/>
+    <section id="key_concepts">
+      <title>Key Concepts</title>
+      <dl>
+        <dlentry>
+          <dt>Talk</dt>
+          <dd>A named, persistent chat room. Talks can be public (visible to all users in your
+            organization) or private (invite-only). Each talk retains its full message history.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>User</dt>
+          <dd>Anyone with a registered <keyword keyref="product"/> account. Each user is assigned a
+            unique display color used to identify their messages in the talk view.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Direct Message</dt>
+          <dd>A private one-on-one conversation between two users, separate from any talk.</dd>
+        </dlentry>
+        <dlentry>
+          <dt>Mention</dt>
+          <dd>A way to notify a specific user within a talk by typing <codeph>@username</codeph>.
+            The mentioned user receives a notification even if they are not currently active.</dd>
+        </dlentry>
+      </dl>
+    </section>
+    <section id="workflow">
+      <title>Typical Workflow</title>
+      <ol>
+        <li>Install <keyword keyref="product"/> on your computer, ask your system administrator for
+          help.</li>
+        <li>Launch the application and create or log in to your account.</li>
+        <li>On the <uicontrol>Talk Selection Screen</uicontrol>, choose an existing talk or create a
+          new one.</li>
+        <li>Start exchanging messages with your team on the <uicontrol>Main Talk
+          Screen</uicontrol>.</li>
+        <li>Customize your experience via <uicontrol>Settings</uicontrol> (notifications, theme,
+          proxy, etc.).</li>
+      </ol>
+    </section>
+  </conbody>
+</concept>

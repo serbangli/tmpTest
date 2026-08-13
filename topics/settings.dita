@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="settings">
+  <title>Settings and Preferences</title>
+  <shortdesc>The <uicontrol>Settings</uicontrol> panel lets you customize the behavior and
+    appearance of <keyword keyref="product"/>.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword keyref="configure-label" outputclass="label"/>
+        <indexterm>settings</indexterm>
+        <indexterm>preferences</indexterm>
+        <indexterm>configuration</indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <refbody>
+    <section id="open_settings">
+      <title>Opening Settings</title>
+      <p>To open the <uicontrol>Settings</uicontrol> panel, click the gear icon
+        (<uicontrol>⚙</uicontrol>) in the top-right corner of the application toolbar, or use the
+        keyboard shortcut <uicontrol>Ctrl+,</uicontrol> (Windows/Linux) /
+        <uicontrol>⌘,</uicontrol> (Mac).</p>
+    </section>
+    <section id="general_settings" audience="enduser">
+      <title>General</title>
+      <simpletable relcolwidth="1* 2* 1*">
+        <sthead>
+          <stentry>Option</stentry>
+          <stentry>Description</stentry>
+          <stentry>Default</stentry>
+        </sthead>
+        <strow>
+          <stentry>Launch at startup</stentry>
+          <stentry>Automatically start <keyword keyref="product"/> when you log in to your
+            computer.</stentry>
+          <stentry>Off</stentry>
+        </strow>
+        <strow>
+          <stentry>Theme</stentry>
+          <stentry>Choose between <uicontrol>Light</uicontrol>, <uicontrol>Dark</uicontrol>, and
+            <uicontrol>System Default</uicontrol> color themes.</stentry>
+          <stentry>System Default</stentry>
+        </strow>
+        <strow>
+          <stentry>Language</stentry>
+          <stentry>Set the display language for the application interface.</stentry>
+          <stentry>English</stentry>
+        </strow>
+        <strow>
+          <stentry>Font size</stentry>
+          <stentry>Adjust the message text size (Small, Medium, Large).</stentry>
+          <stentry>Medium</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="notification_settings" audience="enduser">
+      <title>Notifications</title>
+      <simpletable relcolwidth="1* 2* 1*">
+        <sthead>
+          <stentry>Option</stentry>
+          <stentry>Description</stentry>
+          <stentry>Default</stentry>
+        </sthead>
+        <strow>
+          <stentry>Desktop notifications</stentry>
+          <stentry>Show a system notification when a new message arrives in any talk.</stentry>
+          <stentry>On</stentry>
+        </strow>
+        <strow>
+          <stentry>Notification sound</stentry>
+          <stentry>Play a sound when a new message is received.</stentry>
+          <stentry>On</stentry>
+        </strow>
+        <strow>
+          <stentry>Notify only on mention</stentry>
+          <stentry>Suppress notifications unless your username is mentioned with
+            <codeph>@</codeph>.</stentry>
+          <stentry>Off</stentry>
+        </strow>
+        <strow>
+          <stentry>Do Not Disturb schedule</stentry>
+          <stentry>Define a time window during which all notifications are silenced.</stentry>
+          <stentry>Disabled</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="network_settings" audience="administrator">
+      <title>Network</title>
+      <simpletable relcolwidth="1* 2* 1*">
+        <sthead>
+          <stentry>Option</stentry>
+          <stentry>Description</stentry>
+          <stentry>Default</stentry>
+        </sthead>
+        <strow>
+          <stentry>Proxy type</stentry>
+          <stentry>Select <uicontrol>None</uicontrol>, <uicontrol>HTTP</uicontrol>, or
+            <uicontrol>SOCKS5</uicontrol>.</stentry>
+          <stentry>None</stentry>
+        </strow>
+        <strow>
+          <stentry>Proxy host</stentry>
+          <stentry>Hostname or IP address of the proxy server.</stentry>
+          <stentry>—</stentry>
+        </strow>
+        <strow>
+          <stentry>Proxy port</stentry>
+          <stentry>Port number of the proxy server.</stentry>
+          <stentry>—</stentry>
+        </strow>
+        <strow>
+          <stentry>Proxy authentication</stentry>
+          <stentry>Enable if the proxy requires a username and password.</stentry>
+          <stentry>Off</stentry>
+        </strow>
+      </simpletable>
+    </section>
+    <section id="privacy_settings" audience="enduser">
+      <title>Privacy</title>
+      <simpletable relcolwidth="1* 2* 1*">
+        <sthead>
+          <stentry>Option</stentry>
+          <stentry>Description</stentry>
+          <stentry>Default</stentry>
+        </sthead>
+        <strow>
+          <stentry>Read receipts</stentry>
+          <stentry>Allow others to see when you have read their messages.</stentry>
+          <stentry>On</stentry>
+        </strow>
+        <strow>
+          <stentry>Online status</stentry>
+          <stentry>Show your online/away/offline status to other users.</stentry>
+          <stentry>On</stentry>
+        </strow>
+        <strow>
+          <stentry>Clear message cache on exit</stentry>
+          <stentry>Delete locally cached messages when the application closes.</stentry>
+          <stentry>Off</stentry>
+        </strow>
+      </simpletable>
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installation_on_mac">
+  <title>Installation on Mac</title>
+  <shortdesc>This task describes how to install the desktop version of the <keyword
+    keyref="product"/> messaging application.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword keyref="installation-label" outputclass="label"/>
+        <indexterm>installation<indexterm>mac</indexterm></indexterm>       
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p>Follow the steps to install the software on a Mac OS X platform.</p>
+      <p conref="../reusables/r_installation.dita#r_installation/uninstall_advice"/>
+    </context>
+    <steps>
+      <step>
+        <cmd>Download the installation kit from <xref keyref="download_site"/>.</cmd>
+      </step>
+      <step>
+        <cmd>Extract the archive</cmd>
+      </step>
+      <step>
+        <cmd>Drag the application icon to your Applications folder</cmd>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="installation_on_windows.dita"/>
+    <link href="installation_on_linux.dita"/>
+  </related-links>
+</task>

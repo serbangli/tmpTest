@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="installation_on_linux">
+  <title>Installation on Linux</title>
+  <shortdesc>This task describes how to install the desktop version of the
+    <keyword keyref="product"/> messaging application on Linux.</shortdesc>
+  <prolog>
+    <metadata>
+      <keywords>
+        <keyword keyref="installation-label" outputclass="label"/>
+        <indexterm>installation<indexterm>linux</indexterm></indexterm>
+      </keywords>
+    </metadata>
+  </prolog>
+  <taskbody>
+    <context>
+      <p>Follow the steps to install the software on an Ubuntu 20.04 LTS or later platform.
+        For other Debian-based distributions the steps are equivalent; for RPM-based distributions
+        (Fedora, RHEL) use the <filepath>.rpm</filepath> package instead.</p>
+      <p conref="../reusables/r_installation.dita#r_installation/uninstall_advice"/>
+    </context>
+    <steps>
+      <step>
+        <cmd>Download the installation package from <xref keyref="download_site"/>.</cmd>
+        <info>Choose either the <filepath>.deb</filepath> (Debian/Ubuntu) or
+          <filepath>.rpm</filepath> (Fedora/RHEL) package.</info>
+      </step>
+      <step>
+        <cmd>Open a terminal and navigate to the folder where the package was downloaded.</cmd>
+      </step>
+      <step>
+        <cmd>Install the package using the appropriate package manager.</cmd>
+        <choices>
+          <choice>For Debian/Ubuntu: <codeph>sudo dpkg -i circlechat_*.deb</codeph></choice>
+          <choice>For Fedora/RHEL: <codeph>sudo rpm -i circlechat_*.rpm</codeph></choice>
+        </choices>
+      </step>
+      <step>
+        <cmd>Resolve any missing dependencies by running:</cmd>
+        <info><codeph>sudo apt-get install -f</codeph> (Debian/Ubuntu only)</info>
+      </step>
+      <step>
+        <cmd>Launch <keyword keyref="product"/> from the application menu or by running
+          <codeph>circlechat</codeph> in the terminal.</cmd>
+      </step>
+    </steps>
+    <result>
+      <p conref="../reusables/r_installation.dita#r_installation/install_result"/>
+    </result>
+    <postreq>
+      <p conref="../reusables/r_installation.dita#r_installation/proxy_postreq"/>
+    </postreq>
+  </taskbody>
+  <related-links>
+    <link href="installation_on_windows.dita"/>
+    <link href="installation_on_mac.dita"/>
+  </related-links>
+</task>

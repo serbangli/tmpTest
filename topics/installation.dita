@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="installation">
+    <title>Installation</title>
+    <shortdesc>This section describes how to install the desktop version of the
+        <keyword keyref="product"/> messaging application on supported platforms.</shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <keyword keyref="installation-label" outputclass="label"/>
+            </keywords>
+        </metadata>
+    </prolog>
+    <body>
+        <p><keyword keyref="product"/> is available as a native desktop application for Windows,
+            Mac OS X, and Linux. Before you begin the installation, make sure your system meets the
+            minimum requirements described in <xref href="system_requirements.dita"/>.</p>
+        <p>Choose the installation guide for your operating system:</p>
+        <ul>
+            <li><xref href="../tasks/installation_on_windows.dita">Installation on Windows</xref></li>
+            <li><xref href="../tasks/installation_on_mac.dita">Installation on Mac</xref></li>
+            <li><xref href="../tasks/installation_on_linux.dita">Installation on Linux</xref></li>
+        </ul>
+        <note type="tip">If you are upgrading from a previous version, uninstall the old version
+            first but keep your settings folder intact. <keyword keyref="product"/> will
+            automatically import your previous configuration on first launch.</note>
+    </body>
+</topic>
