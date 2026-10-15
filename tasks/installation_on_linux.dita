@@ -52,7 +52,7 @@
     </postreq>
   </taskbody>
   <related-links>
-    <link href="installation_on_windows.dita"/>
-    <link href="installation_on_mac.dita"/>
+    <link href="installation_on_windows.dita" platform="windows"/>
+    <link href="installation_on_mac.dita" platform="macOS"/>
   </related-links>
 </task>

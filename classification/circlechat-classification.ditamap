@@ -21,7 +21,7 @@
     </topicref>
 
     <!-- Installation -->
-    <topicref href="../topics/installation.dita" audience="administrator">
+    <topicref href="../topics/installation.dita" audience="administrator" platform="windows macOS">
         <topicsubject keyref="topic-category">
             <subjectref keyref="installation"/>
         </topicsubject>

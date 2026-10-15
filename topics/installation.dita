@@ -17,8 +17,10 @@
             minimum requirements described in <xref href="system_requirements.dita"/>.</p>
         <p>Choose the installation guide for your operating system:</p>
         <ul>
-            <li><xref href="../tasks/installation_on_windows.dita">Installation on Windows</xref></li>
-            <li><xref href="../tasks/installation_on_mac.dita">Installation on Mac</xref></li>
+            <li><xref href="../tasks/installation_on_windows.dita" platform="windows">Installation
+                    on Windows</xref></li>
+            <li><xref href="../tasks/installation_on_mac.dita" platform="macOS">Installation on
+                    Mac</xref></li>
             <li><xref href="../tasks/installation_on_linux.dita">Installation on Linux</xref></li>
         </ul>
         <note type="tip">If you are upgrading from a previous version, uninstall the old version
