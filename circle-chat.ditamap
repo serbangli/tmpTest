@@ -10,10 +10,10 @@
  <topicref href="topics/system_requirements.dita" audience="administrator"/>
 
  <!-- Installation -->
- <topicref href="topics/installation.dita" audience="administrator">
-  <topicref href="tasks/installation_on_windows.dita" audience="administrator"/>
-  <topicref href="tasks/installation_on_mac.dita" audience="administrator"/>
-  <topicref href="tasks/installation_on_linux.dita" audience="administrator"/>
+ <topicref href="topics/installation.dita" audience="administrator" platform="linux windows macOS">
+  <topicref href="tasks/installation_on_windows.dita" audience="administrator" platform="windows"/>
+  <topicref href="tasks/installation_on_mac.dita" audience="administrator" platform="macOS"/>
+  <topicref href="tasks/installation_on_linux.dita" audience="administrator" platform="linux"/>
  </topicref>
 
  <!-- Account Management -->

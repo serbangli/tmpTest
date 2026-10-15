@@ -1,52 +1,58 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <project xmlns="https://www.dita-ot.org/project">
-  <context id="circle-chat-admin" name="CircleChat Admin">
-    <input href="../circle-chat.ditamap"/>
-    <profile>
-      <ditaval href="../filters/administrator.ditaval"/>
-    </profile>
-  </context>
-  <context id="circle-chat-user" name="CircleChat User">
-    <input href="../circle-chat.ditamap"/>
-    <profile>
-      <ditaval href="../filters/enduser.ditaval"/>
-    </profile>
-  </context>
-  <publication id="webhelp" transtype="webhelp-responsive"/>
-  <publication id="pdf" transtype="pdf-css-html5"/>
-  <deliverable id="d-CircleChatDemo_Admin_WebHelp-1773999985903" name="CircleChatDemo Admin WebHelp">
-    <?description {"content":"CircleChatDemo Admin WebHelp"}?>
-    <context idref="circle-chat-admin"/>
-    <output href="webhelp-output"/>
-    <publication idref="webhelp">
-      <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
-      <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-    </publication>
-  </deliverable>
-  <deliverable id="d-CircleChatDemo_Admin_PDF-1774000002955" name="CircleChatDemo Admin PDF">
-    <?description {"content":"CircleChatDemo Admin PDF"}?>
-    <context idref="circle-chat-admin"/>
-    <output href="pdf-output"/>
-    <publication idref="pdf">
-      <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
-      <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-    </publication>
-  </deliverable>
-  <deliverable id="d-CircleChatDemo_User_WebHelp-1774000022833" name="CircleChatDemo User WebHelp">
-    <context idref="circle-chat-user"/>
-    <output href="webhelp-output"/>
-    <publication idref="webhelp">
-      <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
-      <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-    </publication>
-  </deliverable>
-  <deliverable id="d-CircleChatDemo_User_PDF-1774000040413" name="CircleChatDemo User PDF">
-    <?description {"content":"CircleChatDemo User PDF"}?>
-    <context idref="circle-chat-user"/>
-    <output href="pdf-output"/>
-    <publication idref="pdf">
-      <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
-      <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
-    </publication>
-  </deliverable>
+    <context id="mNdGTwOyccbFrBl" name="linux">
+        <input href="../circle-chat.ditamap"/>
+        <profile>
+            <ditaval href="../filters/linux.ditaval"/>
+        </profile>
+    </context>
+    <context id="circle-chat-admin" name="CircleChat Admin">
+        <input href="../circle-chat.ditamap"/>
+        <profile>
+            <ditaval href="../filters/administrator.ditaval"/>
+        </profile>
+    </context>
+    <context id="circle-chat-user" name="CircleChat User">
+        <input href="../circle-chat.ditamap"/>
+        <profile>
+            <ditaval href="../filters/enduser.ditaval"/>
+        </profile>
+    </context>
+    <publication id="webhelp" transtype="webhelp-responsive"/>
+    <publication id="pdf" transtype="pdf-css-html5"/>
+    <deliverable id="d-CircleChatDemo_Admin_WebHelp-1773999985903" name="CircleChatDemo Admin WebHelp">
+        <?description {"content":"CircleChatDemo Admin WebHelp"}?>
+        <context idref="circle-chat-admin"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-CircleChatDemo_Admin_PDF-1774000002955" name="CircleChatDemo Admin PDF">
+        <?description {"content":"CircleChatDemo Admin PDF"}?>
+        <context idref="circle-chat-admin"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-CircleChatDemo_User_WebHelp-1774000022833" name="CircleChatDemo User WebHelp">
+        <context idref="circle-chat-user"/>
+        <output href="webhelp-output"/>
+        <publication idref="webhelp">
+            <param href="cf://templates/Oxygen" name="webhelp.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
+    <deliverable id="d-CircleChatDemo_User_PDF-1774000040413" name="CircleChatDemo User PDF">
+        <?description {"content":"CircleChatDemo User PDF"}?>
+        <context idref="circle-chat-user"/>
+        <output href="pdf-output"/>
+        <publication idref="pdf">
+            <param href="cf://templates/Oxygen" name="pdf.publishing.template"/>
+            <param name="editlink.enable.edit.in.content.fusion.workspace" value="false"/>
+        </publication>
+    </deliverable>
 </project>

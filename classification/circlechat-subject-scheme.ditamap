@@ -22,6 +22,26 @@
                 </topicmeta>
             </subjectdef>
         </subjectdef>
+      <subjectdef keys="platformSbjKey">
+            <topicmeta>
+                <navtitle>Platform</navtitle>
+            </topicmeta>
+            <subjectdef keys="linux">
+                <topicmeta>
+                    <navtitle>Linux</navtitle>
+                </topicmeta>
+            </subjectdef>
+            <subjectdef keys="windows">
+                <topicmeta>
+                    <navtitle>Windows</navtitle>
+                </topicmeta>
+            </subjectdef>
+        	<subjectdef keys="macOS">
+                <topicmeta>
+                    <navtitle>Mac OS</navtitle>
+                </topicmeta>
+            </subjectdef>
+        </subjectdef>
 
         <subjectdef keys="topic-category">
             <topicmeta>
@@ -75,7 +95,7 @@
     </enumerationdef>
     <enumerationdef>
         <attributedef name="platform"/>
-        <subjectdef/>
+        <subjectdef keyref="platformSbjKey"/>
     </enumerationdef>
     <enumerationdef>
         <attributedef name="props"/>

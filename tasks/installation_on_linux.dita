@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="installation_on_linux">
-  <title>Installation on Linux</title>
+  <title class="- topic/title">Installation on Linux</title>
   <shortdesc>This task describes how to install the desktop version of the
     <keyword keyref="product"/> messaging application on Linux.</shortdesc>
   <prolog>
