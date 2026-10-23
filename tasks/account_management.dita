@@ -96,10 +96,10 @@
           <cmd>Log in to <keyword keyref="product"/> using your new password.</cmd>
         </step>
       </steps>
-      <result>
-        <p>Your password has been updated. All active sessions on other devices will be
-          signed out automatically.</p>
-      </result>
+      <result><p>Your password has been updated. All active sessions on other devices will be signed
+          out automatically.</p><xref
+          href="../lorem-ipsum-is-simply-dummy-text-of-the-printing-and-typesetting-industry-lorem-ipsum-has-been-the-industrys-standard-dummy-text-ever-since-1966-when-designers-at-letraset-and-james-mosley-the-librarian-at-st-bride-printing-library-in-london-took-a-1914-cicero-translation-and-scrambled4.dita"
+          format="xml"/></result>
     </taskbody>
   </task>
 </task>
